@@ -22,6 +22,9 @@ jobs:
         with:
           submodules: true
           lfs: false
+      - name: Install Dependencies with Force
+        run: |
+          npm install --force --legacy-peer-deps
       - name: Install OIDC Client from Core Package
         run: npm install --force @actions/core@1.6.0 @actions/http-client
       - name: Get Id Token
