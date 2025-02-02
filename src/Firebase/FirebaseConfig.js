@@ -3,13 +3,13 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBIhBiO3flFpAcL2Fm_Ef22QQo6udFp5b4",
-  authDomain: "test-hz7u.onrender.com",
-  projectId: "react-netflix-eb4f0",
-  storageBucket: "react-netflix-eb4f0.appspot.com",
-  messagingSenderId: "29045190704",
-  appId: "1:29045190704:web:a7c74bd778aa5f993c7df5",
-  measurementId: "G-9TB7LL3YPM",
+  apiKey: "AIzaSyDdq2peo8c1-jCNpbOiDYm6n1ZagaJena4",
+  authDomain: "netflix-clone-a4360.firebaseapp.com",
+  projectId: "netflix-clone-a4360",
+  storageBucket: "netflix-clone-a4360.firebasestorage.app",
+  messagingSenderId: "153017387769",
+  appId: "1:153017387769:web:925a706ee5e3a7648cf028",
+  // measurementId: "G-9TB7LL3YPM",
 };
 
 // Initialize Firebase
