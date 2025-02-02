@@ -8,7 +8,7 @@ import {
   getStorage,
 } from "firebase/storage";
 import { useNavigate } from "react-router-dom";
-import { Fade } from "react-reveal";
+import { Fade } from "react-swift-reveal";
 import toast, { Toaster } from "react-hot-toast";
 
 import { AuthContext } from "../Context/UserContext";
